@@ -1,0 +1,223 @@
+/* p {
+    font-size: 20px;
+} */
+
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.head-word {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header span {
+  background-color: rgb(5, 3, 3);
+  color: #f1f1f1;
+  padding: 0px 8px 2px 8px;
+}
+
+main {
+  background-color: #f1f1f1;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.woods-img {
+  /* height: 520px; */
+  box-shadow: 5px 10px 18px #888888;
+  width: 800px;
+  margin-top: 50px;
+}
+
+
+.woods-img h2 {
+  font-size: 30px;
+  margin: 20px 0px 20px 20px;
+}
+
+
+
+
+.test2 {
+    margin: 20px 0px 0px 20px;
+  }
+  
+  .test2 span {
+    opacity: 0.6;
+  }
+  
+  .test2 p {
+    margin-top: 10px;
+  }
+  
+  .test2 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+
+.text-description {
+  margin: 20px 0px 0px 20px;
+}
+
+.text-description span {
+  opacity: 0.6;
+}
+
+.text-description p {
+  margin-top: 10px;
+}
+
+.text-description button {
+  width: 140px;
+  height: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.comments {
+  float: right;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.comments span {
+  background-color: black;
+  color: #f1f1f1;
+  padding: 0px 5px 0px 5px;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 450px;
+  /* height: 400px; */
+  box-shadow: 5px 10px 18px #888888;
+  margin-top: 50px;
+}
+
+.text-my-name {
+  margin: 20px 0px 0px 20px;
+}
+
+.text-my-name h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.posts {
+  width: 450px;
+  /* height: 400px; */
+  box-shadow: 5px 10px 18px #888888;
+  margin-top: 50px;
+}
+
+.text-popular {
+  background-color: #f1f1f1;
+  font-size: 20px;
+  padding: 10px;
+  height: 80px;
+  width: 450px;
+  line-height: 60px;
+}
+
+.posts img {
+  width: 60px;
+  height: 60px;
+}
+
+.text-popular div {
+  background-color: rgb(34, 22, 22);
+}
+
+.posts-img {
+  width: 450px;
+  /* height: 80px; */
+  border: 1px solid #f1f1f1;
+  background-color: white;
+}
+
+.posts-img img {
+  margin: 10px;
+  float: left;
+}
+
+.posts-img p {
+  float: left;
+  line-height: 80px;
+}
+
+.tags {
+  margin-top: 50px;
+  height: 150px;
+  width: 450px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: #fff;
+}
+
+.text-tags {
+  font-size: 25px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.tags span {
+  background-color: #f1f1f1;
+  font-size: 14px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.my-work {
+  padding: 10px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+footer {
+  background-color: #616161;
+  height: 150px;
+  margin-top: 50px;
+}
+
+footer button {
+  width: 100px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: black;
+  color: #f1f1f1;
+  cursor: pointer;
+  border: none;
+}
+
+footer button:hover {
+  background-color: #ccc;
+  color: black;
+}
