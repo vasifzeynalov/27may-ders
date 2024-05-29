@@ -1,3 +1,3 @@
-# 27may-ders
+# 27may-lesson
 
 ## My first project
